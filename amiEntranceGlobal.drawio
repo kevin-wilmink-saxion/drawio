@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-08-27T09:06:15.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Xr4cydNBzCrp8nTWeLIq" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-27T09:30:52.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="lSKOpG82wJKzje-vB8nc" version="24.6.4" type="github">
   <diagram name="Page-1" id="QaQJAhQJtePihNZ4xS38">
     <mxGraphModel dx="896" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,20 +7,30 @@
         <mxCell id="kE2ouuulYcCgNS7bQLFN-11" value="A beamer projects a movie on the building" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Image.svg;" vertex="1" parent="1">
           <mxGeometry x="530" y="200" width="189.09" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="kE2ouuulYcCgNS7bQLFN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kE2ouuulYcCgNS7bQLFN-1" target="kE2ouuulYcCgNS7bQLFN-8">
+        <mxCell id="kE2ouuulYcCgNS7bQLFN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kE2ouuulYcCgNS7bQLFN-1" target="kE2ouuulYcCgNS7bQLFN-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kE2ouuulYcCgNS7bQLFN-15" value="videoclip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kE2ouuulYcCgNS7bQLFN-13">
+          <mxGeometry x="-0.1057" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="kE2ouuulYcCgNS7bQLFN-1" value="NUC computer, running Unity software" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
           <mxGeometry x="290" y="150" width="102.6" height="130.05" as="geometry" />
         </mxCell>
-        <mxCell id="kE2ouuulYcCgNS7bQLFN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kE2ouuulYcCgNS7bQLFN-2" target="kE2ouuulYcCgNS7bQLFN-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="kE2ouuulYcCgNS7bQLFN-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-vol-3/24/_video-128.png;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="155.03" width="120" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="kE2ouuulYcCgNS7bQLFN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kE2ouuulYcCgNS7bQLFN-8" target="kE2ouuulYcCgNS7bQLFN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kE2ouuulYcCgNS7bQLFN-14" value="3D depth image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kE2ouuulYcCgNS7bQLFN-12">
+          <mxGeometry x="-0.2229" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kE2ouuulYcCgNS7bQLFN-8" value="3D depth camera" style="points=[[0,0.5,0],[0.19,0.02,0],[0.59,0,0],[0.985,0.02,0],[1,0.5,0],[0.985,0.98,0],[0.59,1,0],[0.19,0.98,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.camera;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="80" y="190.03" width="90" height="50" as="geometry" />
+          <mxGeometry x="60" y="190.03" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
